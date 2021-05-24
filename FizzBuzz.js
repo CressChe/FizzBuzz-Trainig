@@ -1,4 +1,4 @@
-for (let i = 1 ; i < 1001 ; i++)
+for (let i = 1 ; i < 1001 ; i++) {
 let newArr = []
 if (i % 3 == 0) {
     newArr.push('Fizz');
@@ -28,4 +28,5 @@ else if (i % 11 == 0) {
     console.log('Bong');
 }
 else {console.log(newArr.join(''));
+}
 }
